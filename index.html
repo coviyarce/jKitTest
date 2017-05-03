@@ -21,31 +21,49 @@
 
 <body>
   <!-- Menu -->
-  <nav class="white" role="navigation">
+  <div class="navbar-fixed">
+  <nav class="blue qubit" role="navigation">
     <div class="nav-wrapper container">
+      <a id="logo-container" href="#home" class="brand-logo"><img src="img/logo.png" alt=""></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">NavBar link</a></li>
+        <li><a class="waves-effect waves-dark" href="#home">Home</a></li>
+        <li><a class="waves-effect waves-dark" href="#nosotros">Us</a></li>
+        <li><a class="waves-effect waves-dark" href="#nosotros">Team</a></li>
+        <li><a class="waves-effect waves-dark" href="#nosotros">Get in touch</a></li>
       </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbarlink</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse">menu</a>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+</div>
+
+<!-- it's important to bring out the side-nav from the nav in this way -->
+
+<ul id="slide-out" class="side-nav">
+  <li><a class="waves-effect waves-dark" href="#home">Home</a></li>
+  <li><a class="waves-effect waves-dark" href="#nosotros">Us</a></li>
+  <li><a class="waves-effect waves-dark" href="#nosotros">Team</a></li>
+  <li><a class="waves-effect waves-dark" href="#nosotros">Get in touch</a></li>
+</ul>
+
 <!-- finalMenu -->
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container" >
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
+        <div data-jkit="[slideshow:interval=2000;speed=300;animation=fade]">
+        <!-- <h1 class="header center teal-text text-lighten-2">QUBIT <BR> MARKETING</h1> -->
+        <h1 class="header left teal-text text-lighten-2">We create.</h1>
+        <h1 class="header center teal-text text-lighten-2"> We optimize.</h1>
+        <h1 class="header right teal-text text-lighten-2"> We boost.</h1>
+        <h1 class="header center "><img style="width:250px;" src="img/img.png" alt=""></h1>
+      </div>
+        <!-- <div class="row center">
           <h5 class="header col s12 light">A modern responsive front-end-framework based on Google's Material Design</h5>
-        </div>
-        <div class="row center">
+        </div> -->
+        <!-- <div class="row center">
           <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
+        </div> -->
         <br><br>
       </div>
     </div>
@@ -86,7 +104,7 @@
       </div>
     </div>
 
-    <div class="parallax-container valing-wrapper">
+    <div class="parallax-container">
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
@@ -103,13 +121,13 @@
           <div class="col s12 center">
             <h3><i class="mdi-content-send brown-text"></i></h3>
               <h4>contact us</h4>
-              <p class="left-align light">lorem ipsun</p>
+              <p class="left-align light">yo always can ask for everything to camila</p>
 
           </div>
         </div>
       </div>
     </div>
-    <div class="parallax-container valign-wrapper">
+    <div class="parallax-container">
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
@@ -117,10 +135,10 @@
           </div>
         </div>
       </div>
-      <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+      <div class="parallax"><img src="#" alt="Unsplashed background img 3"></div>
     </div>
 
-    <footer class="page-footer teal">
+    <footer class="page-footer teal col l3 s12">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
@@ -158,10 +176,10 @@
 
 
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
-  </div>
+
 </body>
 
 </html>
