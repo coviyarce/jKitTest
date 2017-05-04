@@ -647,6 +647,10 @@
   background-color: #2196F3 !important;
 }
 
+.blue.qubit {
+  background-color: #1558A4 !important;
+}
+
 .blue-text {
   color: #2196F3 !important;
 }
@@ -3343,7 +3347,7 @@ nav ul a span.badge {
 
 .container {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 100%;
   width: 90%;
 }
 
@@ -8949,4 +8953,53 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em;
   }
+}
+
+
+/*============================================================================
+DIAGONALS
+==============================================================================*/
+
+.rightout {
+  background-color: skyblue;
+  margin-top: 50px;
+  padding: 5% 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  transform: skewY(5deg);
+  margin-top: -90px;
+  margin-bottom: -90px;
+}
+
+.rightout > .rightinner {
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+}
+
+.leftout {
+  background-color: skyblue;
+  margin-top: 50px;
+  padding: 5% 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+  margin-top: -90px;
+    margin-bottom: -90px;
+}
+
+.leftout > .leftinner {
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  transform: skewY(5deg);
 }
