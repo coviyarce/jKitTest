@@ -2751,6 +2751,7 @@ video.responsive-video {
   position: relative;
   overflow: hidden;
   height: 500px;
+  width: 100%;
 }
 
 .parallax {
@@ -3248,6 +3249,10 @@ td, th {
 
 .center, .center-align {
   text-align: center;
+}
+
+.justify, .justify-align{
+  text-align: justify;
 }
 
 .left {
@@ -4277,6 +4282,10 @@ nav .brand-logo.center {
     right: 0.5rem;
     left: auto;
   }
+
+  .brand-logo img {
+    height: 90px;
+  }
 }
 
 nav .brand-logo.right {
@@ -4382,6 +4391,11 @@ nav .input-field label.active i {
 
 .navbar-fixed nav {
   position: fixed;
+  height: 12%;
+}
+
+.img{
+  height: auto;
 }
 
 @media only screen and (min-width: 601px) {
@@ -4395,6 +4409,7 @@ nav .input-field label.active i {
   .navbar-fixed {
     height: 64px;
   }
+
 }
 
 @font-face {
