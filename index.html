@@ -7,10 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
   <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="js/jquery.jkit.1.2.16.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <script type="text/javascript">
     $(document).ready(function() {
@@ -27,80 +27,83 @@
 
 
   <!-- Menu -->
-  <div class="navbar-fixed">
-  <nav class="white qubit " role="navigation">
-    <div class="nav-wrapper container ">
-      <a id="logo-container" href="#home" class="brand-logo "><img src="img/logo.png" alt=""></a>
-      <ul class="right hide-on-med-and-down ">
-        <li><a class="waves-effect waves-dark black-text" href="#home">Home</a></li>
+  <div class="navbar-fixed" id="home">
+    <nav class="white qubit " role="navigation">
+      <div class="nav-wrapper container ">
+        <a id="logo-container" href="#home" class="brand-logo "><img src="img/logo.png" alt=""></a>
+        <ul class="right hide-on-med-and-down ">
+          <li><a class="waves-effect waves-dark black-text" href="#home">Home</a></li>
 
-        <li><a class="waves-effect waves-dark black-text" href="#team">Team</a></li>
+          <li><a class="waves-effect waves-dark black-text" href="#team">Team</a></li>
 
-        <li><a class="waves-effect waves-dark black-text" href="#social">Contact</a></li>
-      </ul>
-      <a href="#" data-activates="slide-out" class="button-collapse black-text"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-</div>
-
-<!-- it's important to bring out the side-nav from the nav in this way -->
-
-<ul id="slide-out" class="side-nav">
-  <li><a class="waves-effect waves-dark black-text" href="#home">Home</a></li>
-
-  <li><a class="waves-effect waves-dark black-text" href="#team">Team</a></li>
-
-  <li><a class="waves-effect waves-dark black-text" href="#social">Contact</a></li>
-</ul>
-
-<!-- finalMenu -->
-
-<div id="home" class="parallax-container">
-  <div class="section no-pad-bot" >
-    <div class="container">
-      <br><br>
-      <div class="center-align " data-jkit="[slideshow:interval=2000;speed=300;animation=fade]">
-        <!-- <h1 class="header center teal-text text-lighten-2">QUBIT <BR> MARKETING</h1> -->
-        <h1 class="header left orange-text text-darken-2 center-on-small-only">We create.</h1>
-        <h1 class="header center blue-text text-darken-3 center-on-small-only"> We optimize.</h1>
-        <h1 class="header right red-text text-accent-4 center-on-small-only"> We boost.</h1>
-        <h1 class="header center "><img style="width:250px;" src="img/img.png" alt=""></h1>
+          <li><a class="waves-effect waves-dark black-text" href="#social">Contact</a></li>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse black-text"><i class="material-icons">menu</i></a>
       </div>
-      <br><br>
-    </div>
+    </nav>
   </div>
-  <div class="parallax"><video class="center" autoplay loop style="filter: blur(100px) saturate(1) hue-rotate(0deg) brightness(1,7) contrast(0.8) invert(0) sepia(0);">
+
+  <!-- it's important to bring out the side-nav from the nav in this way -->
+
+  <ul id="slide-out" class="side-nav">
+    <li><a class="waves-effect waves-dark black-text" href="#home">Home</a></li>
+
+    <li><a class="waves-effect waves-dark black-text" href="#team">Team</a></li>
+
+    <li><a class="waves-effect waves-dark black-text" href="#social">Contact</a></li>
+  </ul>
+
+  <!-- finalMenu -->
+
+  <div  class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <div class="center-align " data-jkit="[slideshow:interval=2000;speed=300;animation=fade]">
+          <!-- <h1 class="header center teal-text text-lighten-2">QUBIT <BR> MARKETING</h1> -->
+          <h1 class="header left orange-text text-darken-2 center-on-small-only">We create.</h1>
+          <h1 class="header center blue-text text-darken-3 center-on-small-only"> We optimize.</h1>
+          <h1 class="header right red-text text-accent-4 center-on-small-only"> We boost.</h1>
+          <h1 class="header center "><img style="width:250px;" src="img/img.png" alt=""></h1>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><video class="center" autoplay loop style="filter: blur(100px) saturate(1) hue-rotate(0deg) brightness(1,7) contrast(0.8) invert(0) sepia(0);">
     <source src="vid/video.mp4" type="video/mp4">
   </video></div>
-</div>
-
-<div class=" z-depth-3 valign-wrapper" style="height:400px;">
-
-  <div class="container section ">
-
-    <div class="row flow-text "><br>
-
-      <div class="col s12 center">
-        <h3><i class="mdi-content-send brown-text" ></i></h3>
-        <h4 class=" center"></h4>
-        <p class="light  ">
-          <ul class=" container " data-jkit="[slideshow:interval=5000;speed=250;animation=fade]">
-<blockquote > Money coming in says I've made the right marketing decisions.
-<p class="auth">Adam Osborne</p> </blockquote>
-<blockquote > Content marketing is one of the most effective ways to promote your business online - but only when it's done right.
-<p class="auth">John Rampton</p> </blockquote>
-
-<blockquote > Good marketing makes the company look smart. Great marketing makes the customer feel smart.
-<p class="auth">Joe Chernov</p> </blockquote>
-
-          </ul>
-        </p>
-      </div>
-    </div>
-
-
   </div>
-</div>
+
+  <div class=" z-depth-3 valign-wrapper" style="height:400px;">
+
+    <div class="container section ">
+
+      <div class="row flow-text "><br>
+
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text" ></i></h3>
+          <h4 class=" center"></h4>
+          <p class="light  ">
+            <ul class=" container " data-jkit="[slideshow:interval=5000;speed=250;animation=fade]">
+              <blockquote> Money coming in says I've made the right marketing decisions.
+                <p class="auth">Adam Osborne</p>
+              </blockquote>
+              <blockquote> Content marketing is one of the most effective ways to promote your business online - but only when it's done right.
+                <p class="auth">John Rampton</p>
+              </blockquote>
+
+              <blockquote> Good marketing makes the company look smart. Great marketing makes the customer feel smart.
+                <p class="auth">Joe Chernov</p>
+              </blockquote>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
 
 
 
@@ -117,201 +120,201 @@
     </div>
     <div class="parallax"><img src="img/6.jpg" alt="bg 2 "></div>
   </div>
-<!-- diagonal izquierda -->
+  <!-- diagonal izquierda -->
 
-<div class="blue qubit leftout z-depth-3" id="team">
+  <div class="blue qubit leftout z-depth-3" id="team">
 
-  <div class="section leftinner white-text">
-    <h4 class="center">The Team</h4>
-    <!-- icon section -->
-<div class="row flow-text container">
+    <div class="section leftinner white-text">
+      <h4 class="center">The Team</h4>
+      <!-- icon section -->
+      <div class="row flow-text container">
 
-  <div class="col s12 m4">
-    <div class="icon-block">
-      <h2 class="center "><img src="img/pp/gabo.jpg" alt="" class="circle responsive-img hoverable"></h2>
-      <h5 class="center">Gabriel Plata</h5>
-      <p class="light center">Senior Marketer <br> Digital war strategist <br> Tech devotee <br> Husband and father</p>
-    </div>
-
-
-
-  </div>
-  <div class="col s12 m4">
-    <div class="icon-block">
-      <h2 class="center"><img src="img/pp/covi.jpg" alt="" class="circle responsive-img hoverable"></h2>
-      <h5 class="center">Luis Covilla</h5>
-      <p class="light center">Senior UX Researcher <br> HCI ninja <br> Hardware savvy <br> Gamer and audiophile</p>
-    </div>
-  </div>
-
-  <div class="col s12 m4">
-    <div class="icon-block">
-      <h2 class="center "><img src="img/pp/cami.jpg" alt="" class="circle responsive-img hoverable"></h2>
-      <h5 class="center">Camila Cristo</h5>
-      <p class="light center">Senior Copywriter <br> Language maven <br> Bookworm <br> Schnauzer and Beatles lover</p>
-    </div>
-  </div>
-
-
-</div>
-
-  </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper espacio" >
-  <div class="section no-pad-bot container">
-    <div class="row ">
-      <div class="row center">
-        <h5 class="header col s12  light"><br>
-
-        <br>We will focus on attracting and converting prospects for your company through advanced strategies, exploiting the best digital marketing practices.
-</h5>
-
-      </div>
-    </div>
-  </div>
-  <div class="parallax"><img src="img/3.jpg" alt="Unsplashed background img 3"></div>
-</div>
-<!-- salto de contenidos -->
-
-<!-- diagonal derecha -->
-<div class="orange accent-4 leftout z-depth-3">
-  <div class="section leftinner">
-    <div class="row white-text container">
-      <div class="col s12 center">
-
-        <br><br>
-        <div class="row">
-
-
-          <div class="col s12 m4 l3">
-            <div class="card small hoverable">
-              <div class="card-image">
-                <img src="img/13.jpg">
-                <span class="card-title blue-grey-text darken-4 bold left-align">MARKETING AUTOMATION</span>
-              </div>
-              <div class="card-content blue-grey-text darken-2 left-align">
-                <p>Creating, programming, and measuring campaigns through different analysis and generation tools.</p>
-              </div>
-              <div class="card-action">
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4 l3">
-            <div class="card small hoverable">
-              <div class="card-image">
-                <img src="img/9.jpg">
-                <span class="card-title blue-grey-text darken-4 bold  left-align">ACCOUNT-BASED MARKETING</span>
-              </div>
-              <div class="card-content blue-grey-text darken-2 left-align">
-                <p>Personalizing the marketing according to each profile.</p>
-              </div>
-              <div class="card-action">
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4 l3">
-            <div class="card small hoverable">
-              <div class="card-image">
-                <img src="img/14.jpg">
-                <span class="card-title blue-grey-text darken-4 bold  left-align">COMMUNICATION <BR></BR></span>
-              </div>
-              <div class="card-content blue-grey-text darken-2 left-align">
-                <p>Interacting with potential clients according to their area of interest via e-mail, web and all mobile channels.</p>
-              </div>
-              <div class="card-action">
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4 l3">
-            <div class="card small hoverable">
-              <div class="card-image">
-                <img src="img/16.jpg">
-                <span class="card-title blue-grey-text darken-4 bold  left-align">SOCIAL<BR></BR></span>
-              </div>
-              <div class="card-content blue-grey-text darken-2 left-align">
-                <p>Including social media that would cover a wider range of potential clients.</p>
-              </div>
-              <div class="card-action">
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4 l3">
-            <div class="card small hoverable">
-              <div class="card-image">
-                <img src="img/12.jpg">
-                <span class="card-title blue-grey-text darken-4 bold  left-align">MARKETING ANALYTICS</span>
-              </div>
-              <div class="card-content blue-grey-text darken-2 left-align">
-                <p>Testing and optimizing the presence and impact of our clients within their business field.</p>
-              </div>
-              <div class="card-action">
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4 l3">
-            <div class="card small hoverable">
-              <div class="card-image">
-                <img src="img/15.jpg">
-                <span class="card-title blue-grey-text darken-4 bold  left-align">PREDICTIVE CONTENT<BR></BR></span>
-              </div>
-              <div class="card-content blue-grey-text darken-2 left-align">
-                <p>Immediately generating the content wished by our clients.</p>
-              </div>
-              <div class="card-action">
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4 l3">
-            <div class="card small hoverable">
-              <div class="card-image">
-                <img src="img/11.jpg">
-                <span class="card-title blue-grey-text darken-4 bold left-align">DIGITAL ADS<BR></BR></span>
-              </div>
-              <div class="card-content blue-grey-text darken-2 left-align">
-                <p>Leading clients in an effective and accurate by using personalized ads. </p>
-              </div>
-              <div class="card-action">
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4 l3">
-            <div class="card small hoverable">
-              <div class="card-image">
-                <img src="img/17.jpg">
-                <span class="card-title blue-grey-text darken-4 bold  left-align">AFFILIATE MARKETING <br><br></span>
-              </div>
-              <div class="card-content blue-grey-text darken-2 left-align">
-                <p>Rewarding one or more affiliates for each visitor or customer brought by the affiliate's own marketing efforts.</p>
-              </div>
-              <div class="card-action">
-
-              </div>
-            </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center "><img src="img/pp/gabo.jpg" alt="" class="circle responsive-img hoverable"></h2>
+            <h5 class="center">Gabriel Plata</h5>
+            <p class="light center">Senior Marketer <br> Digital war strategist <br> Tech devotee <br> Husband and father</p>
           </div>
 
 
 
         </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><img src="img/pp/covi.jpg" alt="" class="circle responsive-img hoverable"></h2>
+            <h5 class="center">Luis Covilla</h5>
+            <p class="light center">Senior UX Researcher <br> HCI ninja <br> Hardware savvy <br> Gamer and audiophile</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center "><img src="img/pp/cami.jpg" alt="" class="circle responsive-img hoverable"></h2>
+            <h5 class="center">Camila Cristo</h5>
+            <p class="light center">Senior Copywriter <br> Language maven <br> Bookworm <br> Schnauzer and Beatles lover</p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper espacio">
+    <div class="section no-pad-bot container">
+      <div class="row ">
+        <div class="row center">
+          <h5 class="header col s12  light"><br>
+
+        <br>We will focus on attracting and converting prospects for your company through advanced strategies, exploiting the best digital marketing practices.
+</h5>
+
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+  <!-- salto de contenidos -->
+
+  <!-- diagonal derecha -->
+  <div class="orange accent-4 leftout z-depth-3">
+    <div class="section leftinner">
+      <div class="row white-text container">
+        <div class="col s12 center">
+
+          <br><br>
+          <div class="row">
+
+
+            <div class="col s12 m4 l3">
+              <div class="card small hoverable">
+                <div class="card-image">
+                  <img src="img/13.jpg">
+                  <span class="card-title blue-grey-text darken-4 bold left-align">MARKETING AUTOMATION</span>
+                </div>
+                <div class="card-content blue-grey-text darken-2 left-align">
+                  <p>Creating, programming, and measuring campaigns through different analysis and generation tools.</p>
+                </div>
+                <div class="card-action">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4 l3">
+              <div class="card small hoverable">
+                <div class="card-image">
+                  <img src="img/9.jpg">
+                  <span class="card-title blue-grey-text darken-4 bold  left-align">ACCOUNT-BASED MARKETING</span>
+                </div>
+                <div class="card-content blue-grey-text darken-2 left-align">
+                  <p>Personalizing the marketing according to each profile.</p>
+                </div>
+                <div class="card-action">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4 l3">
+              <div class="card small hoverable">
+                <div class="card-image">
+                  <img src="img/14.jpg">
+                  <span class="card-title blue-grey-text darken-4 bold  left-align">COMMUNICATION <BR></BR></span>
+                </div>
+                <div class="card-content blue-grey-text darken-2 left-align">
+                  <p>Interacting with potential clients according to their area of interest via e-mail, web and all mobile channels.</p>
+                </div>
+                <div class="card-action">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4 l3">
+              <div class="card small hoverable">
+                <div class="card-image">
+                  <img src="img/16.jpg">
+                  <span class="card-title blue-grey-text darken-4 bold  left-align">SOCIAL<BR></BR></span>
+                </div>
+                <div class="card-content blue-grey-text darken-2 left-align">
+                  <p>Including social media that would cover a wider range of potential clients.</p>
+                </div>
+                <div class="card-action">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4 l3">
+              <div class="card small hoverable">
+                <div class="card-image">
+                  <img src="img/12.jpg">
+                  <span class="card-title blue-grey-text darken-4 bold  left-align">MARKETING ANALYTICS</span>
+                </div>
+                <div class="card-content blue-grey-text darken-2 left-align">
+                  <p>Testing and optimizing the presence and impact of our clients within their business field.</p>
+                </div>
+                <div class="card-action">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4 l3">
+              <div class="card small hoverable">
+                <div class="card-image">
+                  <img src="img/15.jpg">
+                  <span class="card-title blue-grey-text darken-4 bold  left-align">PREDICTIVE CONTENT<BR></BR></span>
+                </div>
+                <div class="card-content blue-grey-text darken-2 left-align">
+                  <p>Immediately generating the content wished by our clients.</p>
+                </div>
+                <div class="card-action">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4 l3">
+              <div class="card small hoverable">
+                <div class="card-image">
+                  <img src="img/11.jpg">
+                  <span class="card-title blue-grey-text darken-4 bold left-align">DIGITAL ADS<BR></BR></span>
+                </div>
+                <div class="card-content blue-grey-text darken-2 left-align">
+                  <p>Leading clients in an effective and accurate by using personalized ads. </p>
+                </div>
+                <div class="card-action">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4 l3">
+              <div class="card small hoverable">
+                <div class="card-image">
+                  <img src="img/17.jpg">
+                  <span class="card-title blue-grey-text darken-4 bold  left-align">AFFILIATE MARKETING <br><br></span>
+                </div>
+                <div class="card-content blue-grey-text darken-2 left-align">
+                  <p>Rewarding one or more affiliates for each visitor or customer brought by the affiliate's own marketing efforts.</p>
+                </div>
+                <div class="card-action">
+
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
   <div class="parallax-container valign-wrapper ">
@@ -327,12 +330,12 @@
   </div>
 
 
-<!-- footer for socialmedia -->
-<footer class="page-footer blue-grey lighten-1 col l3 s12"id="social">
-  <div class="container">
-    <div class="row">
+  <!-- footer for socialmedia -->
+  <footer class="page-footer blue-grey lighten-1 col l3 s12" id="social">
+    <div class="container">
+      <div class="row">
 
-      <!-- <div class="col l3 s12">
+        <!-- <div class="col l3 s12">
         <h5 class="white-text">Settings</h5>
         <ul>
           <li><a class="white-text" href="#!">Link 1</a></li>
@@ -341,66 +344,68 @@
           <li><a class="white-text" href="#!">Link 4</a></li>
         </ul>
       </div> -->
-      <div class="right col l3 s12">
-        <h5 class="white-text">Get Social</h5>
-        <ul>
-          <li><a class="white-text" href="#!">Linked-In</a></li>
-          <li><a class="white-text" href="#!">Twitter</a></li>
-          <li><a class="white-text" href="#!">Facebook</a></li>
-        </ul>
+        <div class="right col l3 s12">
+          <h5 class="white-text">Get Social</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Linked-In</a></li>
+            <li><a class="white-text" href="#!">Twitter</a></li>
+            <li><a class="white-text" href="#!">Facebook</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="footer-copyright">
-    <div class="container">
-      Copyright to<a class="black-text text-lighten-5 "> QUBIT marketing</a>
+    <div class="footer-copyright">
+      <div class="container">
+        Copyright to<a class="black-text text-lighten-5 "> QUBIT marketing</a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
 
-<!--  Scripts-->
+  <!--  Scripts-->
 
-<script src="js/materialize.js"></script>
-<script src="js/init.js"></script>
-<script type="text/javascript">
-function filterPath(string) {
-    return string
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript">
+    function filterPath(string) {
+      return string
         .replace(/^\//, '')
         .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
         .replace(/\/$/, '');
-}
-
-var locationPath = filterPath(location.pathname);
-$('a[href*="#"]').each(function() {
-    var thisPath = filterPath(this.pathname) || locationPath;
-    var hash = this.hash;
-    if ($("#" + hash.replace(/#/, '')).length) {
-        if (locationPath == thisPath && (location.hostname == this.hostname || !this.hostname) && this.hash.replace(/#/, '')) {
-            var $target = $(hash),
-                target = this.hash;
-            if (target) {
-                $(this).click(function(event) {
-                    if ($('#animation').prop('checked')) {
-                        event.preventDefault();
-                        $('html,body').animate({scrollTop: $target.offset().top}, 1000, function() {
-                            location.hash = target;
-                            $target.focus();
-                            if ($target.is(":focus")) { //checking if the target was focused
-                                return false;
-                            } else {
-                                $target.attr('tabindex', '-1'); //Adding tabindex for elements not focusable
-                                $target.focus(); //Setting focus
-                            }
-                        });
-                    }
-                });
-            }
-        }
     }
-});
-</script>
-<label class="hide">
+
+    var locationPath = filterPath(location.pathname);
+    $('a[href*="#"]').each(function() {
+      var thisPath = filterPath(this.pathname) || locationPath;
+      var hash = this.hash;
+      if ($("#" + hash.replace(/#/, '')).length) {
+        if (locationPath == thisPath && (location.hostname == this.hostname || !this.hostname) && this.hash.replace(/#/, '')) {
+          var $target = $(hash),
+            target = this.hash;
+          if (target) {
+            $(this).click(function(event) {
+              if ($('#animation').prop('checked')) {
+                event.preventDefault();
+                $('html,body').animate({
+                  scrollTop: $target.offset().top
+                }, 1000, function() {
+                  location.hash = target;
+                  $target.focus();
+                  if ($target.is(":focus")) { //checking if the target was focused
+                    return false;
+                  } else {
+                    $target.attr('tabindex', '-1'); //Adding tabindex for elements not focusable
+                    $target.focus(); //Setting focus
+                  }
+                });
+              }
+            });
+          }
+        }
+      }
+    });
+  </script>
+  <label class="hide">
     <input type="checkbox" id="animation" name="animation" checked="checked">
     Enable Animation
   </label>
