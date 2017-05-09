@@ -2619,9 +2619,25 @@ a {
 }
 
 blockquote {
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  font-weight: 300;
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #ee6e73;
+  border-left: 1px solid black;
+}
+
+
+
+.auth::before{
+  content: " - ";
+  font-weight: bold;
+}
+
+.auth  {
+  text-align: right;
+  font-style: normal;
+  font-weight: 700;
 }
 
 i {
@@ -2652,6 +2668,9 @@ i.medium {
 
 i.large {
   font-size: 6rem;
+}
+img.responsive-img{
+  width: 30%;
 }
 
 img.responsive-img,
@@ -2774,6 +2793,22 @@ video.responsive-video {
   transform: translate3d(0, 0, 0);
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.parallax1 {
+	color: #555;
+	font-size: 250px;
+	line-height: 80%;
+}
+.parallax2 {
+	color: #999;
+	font-size: 100px;
+	line-height: 320%;
+}
+.parallax3 {
+	color: #fff;
+	font-size: 50px;
+	line-height: 760%;
 }
 
 .pin-top, .pin-bottom {
@@ -4441,6 +4476,7 @@ nav .input-field label.active i {
   src: local(Roboto Bold), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
   font-weight: 700;
 }
+
 
 a {
   text-decoration: none;
@@ -9017,4 +9053,29 @@ DIAGONALS
   -ms-transform: skewY(5deg);
   -o-transform: skewY(5deg);
   transform: skewY(5deg);
+}
+
+
+/*dame espacio*/
+
+.espacio{
+  padding-top: 320px;
+  padding-bottom: 320px;
+  padding-left: 320px;
+  padding-right: 320px;
+}
+
+@media only screen and (max-width: 992px){
+  .espacio{
+    padding-top: 200px;
+    padding-bottom: 200px ;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+
+/*negrita papu*/
+.bold{
+  font-weight: bold !important;
 }

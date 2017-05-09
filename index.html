@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
   <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="js/jquery.jkit.1.2.16.min.js"></script>
@@ -20,6 +21,11 @@
 </head>
 
 <body>
+
+
+
+
+
   <!-- Menu -->
   <div class="navbar-fixed">
   <nav class="white qubit " role="navigation">
@@ -27,9 +33,10 @@
       <a id="logo-container" href="#home" class="brand-logo "><img src="img/logo.png" alt=""></a>
       <ul class="right hide-on-med-and-down ">
         <li><a class="waves-effect waves-dark black-text" href="#home">Home</a></li>
-        <li><a class="waves-effect waves-dark black-text" href="#nosotros">Us</a></li>
-        <li><a class="waves-effect waves-dark black-text" href="#nosotros">Team</a></li>
-        <li><a class="waves-effect waves-dark black-text" href="#nosotros">Contact</a></li>
+
+        <li><a class="waves-effect waves-dark black-text" href="#team">Team</a></li>
+
+        <li><a class="waves-effect waves-dark black-text" href="#social">Contact</a></li>
       </ul>
       <a href="#" data-activates="slide-out" class="button-collapse black-text"><i class="material-icons">menu</i></a>
     </div>
@@ -40,127 +47,271 @@
 
 <ul id="slide-out" class="side-nav">
   <li><a class="waves-effect waves-dark black-text" href="#home">Home</a></li>
-  <li><a class="waves-effect waves-dark black-text" href="#nosotros">Us</a></li>
-  <li><a class="waves-effect waves-dark black-text" href="#nosotros">Team</a></li>
-  <li><a class="waves-effect waves-dark black-text" href="#nosotros">Contact</a></li>
+
+  <li><a class="waves-effect waves-dark black-text" href="#team">Team</a></li>
+
+  <li><a class="waves-effect waves-dark black-text" href="#social">Contact</a></li>
 </ul>
 
 <!-- finalMenu -->
 
-<div id="index-banner" class="parallax-container">
-  <div class="section no-pad-bot">
+<div id="home" class="parallax-container">
+  <div class="section no-pad-bot" >
     <div class="container">
       <br><br>
       <div class="center-align " data-jkit="[slideshow:interval=2000;speed=300;animation=fade]">
         <!-- <h1 class="header center teal-text text-lighten-2">QUBIT <BR> MARKETING</h1> -->
         <h1 class="header left orange-text text-darken-2 center-on-small-only">We create.</h1>
-        <h1 class="header center indigo-text text-lighten-1 center-on-small-only"> We optimize.</h1>
-        <h1 class="header right red-text text-darken-2 center-on-small-only"> We boost.</h1>
+        <h1 class="header center blue-text text-darken-3 center-on-small-only"> We optimize.</h1>
+        <h1 class="header right red-text text-accent-4 center-on-small-only"> We boost.</h1>
         <h1 class="header center "><img style="width:250px;" src="img/img.png" alt=""></h1>
       </div>
       <br><br>
     </div>
   </div>
-  <div class="parallax"><img src="img/7.png" alt="bg image 1"></div>
+  <div class="parallax"><video class="center" autoplay loop style="filter: blur(100px) saturate(1) hue-rotate(0deg) brightness(1,7) contrast(0.8) invert(0) sepia(0);">
+    <source src="vid/video.mp4" type="video/mp4">
+  </video></div>
 </div>
 
-<div class="container">
+<div class=" z-depth-3 valign-wrapper" style="height:400px;">
 
-  <div class="section">
+  <div class="container section ">
 
-    <!-- icon section -->
-    <div class="row flow-text">
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-          <h5 class="center">Speeds up Developments</h5>
-          <p class="light">We did most of the heavy lisfting for you to provide a default styling that incorporate the things that are incorporated. <br> what where you specting? good redaction? haha, jokes on you!</p>
-        </div>
+    <div class="row flow-text "><br>
 
-
-
-      </div>
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-          <h5 class="center">User Experience Focused</h5>
-          <p class="light">asdlkjfalskdjfhlaksjdhflkasjdf</p>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-          <h5 class="center">Easy to work with</h5>
-          <p class="light">asdfasdfasdf asdfñalksdfasdflkjhasdf</p>
-
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-</div>
-
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light ">Our main task is to provide excellent and effective generation of leads and business opportunities. We offer reliance, safety, responsibility, and benefits for all of our clients.</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="img/6.png" alt="bg 2 "></div>
-  </div>
-<!-- diagonal izquierda -->
-
-<div class="blue qubit leftout">
-  <div class="section leftinner">
-    <div class="row flow-text">
-      <div class="col s12 center white-text">
-        <h3><i class="mdi-content-send brown-text"></i></h3>
-        <h4 class=" center">IMPORTANT SECTION</h4>
+      <div class="col s12 center">
+        <h3><i class="mdi-content-send brown-text" ></i></h3>
+        <h4 class=" center"></h4>
         <p class="light  ">
-          <ul class=" container justify">
-            <li>Excellent and effective lead generation. </li>
-            <li>New business opportunities.</li>
-            <li>Reliance, safety, responsibility, and benefits for all of our clients.</li>
-            <li>Prospect attraction and conversion through advanced digital marketing strategies.</li>
-            <li>Reaching far beyond expectations.</li>
+          <ul class=" container " data-jkit="[slideshow:interval=5000;speed=250;animation=fade]">
+<blockquote > Money coming in says I've made the right marketing decisions.
+<p class="auth">Adam Osborne</p> </blockquote>
+<blockquote > Content marketing is one of the most effective ways to promote your business online - but only when it's done right.
+<p class="auth">John Rampton</p> </blockquote>
+
+<blockquote > Good marketing makes the company look smart. Great marketing makes the customer feel smart.
+<p class="auth">Joe Chernov</p> </blockquote>
+
           </ul>
         </p>
       </div>
     </div>
-  </div>
-  </div>
 
 
-  <div class="parallax-container valign-wrapper ">
-    <div class="section no-pad-bot container">
-      <div class="row ">
-        <div class="row center">
-          <h5 class="header col s12  light" >We will focus on attracting and converting prospects for your company through advanced strategies, exploiting the best digital marketing practices.
-</h5>
+  </div>
+</div>
+
+
+
+  <div class="parallax-container ">
+    <div class="section no-pad-bot">
+      <div class=" ">
+        <div class="row center ">
+          <h5 class="header col s12 light "><br>
+          <br>
+          <br>
+          <br>Within an effective generation of leads and business opportunities, we offer reliability, safety, and benefits for all of our clients.</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/3.png" alt="Unsplashed background img 3"></div>
-  </div> <!-- salto de contenidos -->
+    <div class="parallax"><img src="img/6.jpg" alt="bg 2 "></div>
+  </div>
+<!-- diagonal izquierda -->
+
+<div class="blue qubit leftout z-depth-3" id="team">
+
+  <div class="section leftinner white-text">
+    <h4 class="center">The Team</h4>
+    <!-- icon section -->
+<div class="row flow-text container">
+
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h2 class="center "><img src="img/pp/gabo.jpg" alt="" class="circle responsive-img hoverable"></h2>
+      <h5 class="center">Gabriel Plata</h5>
+      <p class="light center">Senior Marketer <br> Digital war strategist <br> Tech devotee <br> Husband and father</p>
+    </div>
+
+
+
+  </div>
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h2 class="center"><img src="img/pp/covi.jpg" alt="" class="circle responsive-img hoverable"></h2>
+      <h5 class="center">Luis Covilla</h5>
+      <p class="light center">Senior UX Researcher <br> HCI ninja <br> Hardware savvy <br> Gamer and audiophile</p>
+    </div>
+  </div>
+
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h2 class="center "><img src="img/pp/cami.jpg" alt="" class="circle responsive-img hoverable"></h2>
+      <h5 class="center">Camila Cristo</h5>
+      <p class="light center">Senior Copywriter <br> Language maven <br> Bookworm <br> Schnauzer and Beatles lover</p>
+    </div>
+  </div>
+
+
+</div>
+
+  </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper espacio" >
+  <div class="section no-pad-bot container">
+    <div class="row ">
+      <div class="row center">
+        <h5 class="header col s12  light"><br>
+
+        <br>We will focus on attracting and converting prospects for your company through advanced strategies, exploiting the best digital marketing practices.
+</h5>
+
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/3.jpg" alt="Unsplashed background img 3"></div>
+</div>
+<!-- salto de contenidos -->
 
 <!-- diagonal derecha -->
-  <div class="red  rightout">
-    <div class="section rightinner">
-      <div class="row white-text flow-text container">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4 >Another Section</h4>
-          <p class="justify light">or you can ask Gabriel also</p>
+<div class="orange accent-4 leftout z-depth-3">
+  <div class="section leftinner">
+    <div class="row white-text container">
+      <div class="col s12 center">
+
+        <br><br>
+        <div class="row">
+
+
+          <div class="col s12 m4 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/13.jpg">
+                <span class="card-title blue-grey-text darken-4 bold left-align">MARKETING AUTOMATION</span>
+              </div>
+              <div class="card-content blue-grey-text darken-2 left-align">
+                <p>Creating, programming, and measuring campaigns through different analysis and generation tools.</p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/9.jpg">
+                <span class="card-title blue-grey-text darken-4 bold  left-align">ACCOUNT-BASED MARKETING</span>
+              </div>
+              <div class="card-content blue-grey-text darken-2 left-align">
+                <p>Personalizing the marketing according to each profile.</p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/14.jpg">
+                <span class="card-title blue-grey-text darken-4 bold  left-align">COMMUNICATION <BR></BR></span>
+              </div>
+              <div class="card-content blue-grey-text darken-2 left-align">
+                <p>Interacting with potential clients according to their area of interest via e-mail, web and all mobile channels.</p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/16.jpg">
+                <span class="card-title blue-grey-text darken-4 bold  left-align">SOCIAL<BR></BR></span>
+              </div>
+              <div class="card-content blue-grey-text darken-2 left-align">
+                <p>Including social media that would cover a wider range of potential clients.</p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/12.jpg">
+                <span class="card-title blue-grey-text darken-4 bold  left-align">MARKETING ANALYTICS</span>
+              </div>
+              <div class="card-content blue-grey-text darken-2 left-align">
+                <p>Testing and optimizing the presence and impact of our clients within their business field.</p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/15.jpg">
+                <span class="card-title blue-grey-text darken-4 bold  left-align">PREDICTIVE CONTENT<BR></BR></span>
+              </div>
+              <div class="card-content blue-grey-text darken-2 left-align">
+                <p>Immediately generating the content wished by our clients.</p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/11.jpg">
+                <span class="card-title blue-grey-text darken-4 bold left-align">DIGITAL ADS<BR></BR></span>
+              </div>
+              <div class="card-content blue-grey-text darken-2 left-align">
+                <p>Leading clients in an effective and accurate by using personalized ads. </p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l3">
+            <div class="card small hoverable">
+              <div class="card-image">
+                <img src="img/17.jpg">
+                <span class="card-title blue-grey-text darken-4 bold  left-align">AFFILIATE MARKETING <br><br></span>
+              </div>
+              <div class="card-content blue-grey-text darken-2 left-align">
+                <p>Rewarding one or more affiliates for each visitor or customer brought by the affiliate's own marketing efforts.</p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>
   </div>
+</div>
 
 
   <div class="parallax-container valign-wrapper ">
@@ -172,20 +323,16 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/5.png" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="img/5.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
+
 <!-- footer for socialmedia -->
-<footer class="page-footer blue-grey lighten-1 col l3 s12">
+<footer class="page-footer blue-grey lighten-1 col l3 s12"id="social">
   <div class="container">
     <div class="row">
-      <div class="col l6 s12">
-        <h5 class="white-text">Company Bio</h5>
-        <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 
-
-      </div>
-      <div class="col l3 s12">
+      <!-- <div class="col l3 s12">
         <h5 class="white-text">Settings</h5>
         <ul>
           <li><a class="white-text" href="#!">Link 1</a></li>
@@ -193,14 +340,13 @@
           <li><a class="white-text" href="#!">Link 3</a></li>
           <li><a class="white-text" href="#!">Link 4</a></li>
         </ul>
-      </div>
-      <div class="col l3 s12">
-        <h5 class="white-text">Connect</h5>
+      </div> -->
+      <div class="right col l3 s12">
+        <h5 class="white-text">Get Social</h5>
         <ul>
-          <li><a class="white-text" href="#!">Link 1</a></li>
-          <li><a class="white-text" href="#!">Link 2</a></li>
-          <li><a class="white-text" href="#!">Link 3</a></li>
-          <li><a class="white-text" href="#!">Link 4</a></li>
+          <li><a class="white-text" href="#!">Linked-In</a></li>
+          <li><a class="white-text" href="#!">Twitter</a></li>
+          <li><a class="white-text" href="#!">Facebook</a></li>
         </ul>
       </div>
     </div>
@@ -217,7 +363,47 @@
 
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
+<script type="text/javascript">
+function filterPath(string) {
+    return string
+        .replace(/^\//, '')
+        .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
+        .replace(/\/$/, '');
+}
 
+var locationPath = filterPath(location.pathname);
+$('a[href*="#"]').each(function() {
+    var thisPath = filterPath(this.pathname) || locationPath;
+    var hash = this.hash;
+    if ($("#" + hash.replace(/#/, '')).length) {
+        if (locationPath == thisPath && (location.hostname == this.hostname || !this.hostname) && this.hash.replace(/#/, '')) {
+            var $target = $(hash),
+                target = this.hash;
+            if (target) {
+                $(this).click(function(event) {
+                    if ($('#animation').prop('checked')) {
+                        event.preventDefault();
+                        $('html,body').animate({scrollTop: $target.offset().top}, 1000, function() {
+                            location.hash = target;
+                            $target.focus();
+                            if ($target.is(":focus")) { //checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); //Adding tabindex for elements not focusable
+                                $target.focus(); //Setting focus
+                            }
+                        });
+                    }
+                });
+            }
+        }
+    }
+});
+</script>
+<label class="hide">
+    <input type="checkbox" id="animation" name="animation" checked="checked">
+    Enable Animation
+  </label>
 </body>
 
 </html>
